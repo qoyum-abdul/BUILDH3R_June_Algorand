@@ -28,8 +28,8 @@ send_txn = algorand.send.asset_create(
     AssetCreateParams(
         sender=creator.address,
         total=2000,
-        asset_name="PAINLESS",
-        unit_name="MJD",
+        asset_name="QOYUM",
+        unit_name="ABD",
         manager=creator.address,
         clawback=creator.address,
         freeze=creator.address
